@@ -1,0 +1,93 @@
+.room_container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.room_form{
+    width: 600px;
+    padding:2rem;
+    min-height: 20rem;
+    box-shadow: 0 0 1rem 0.5rem #333;
+    position: relative;
+}
+.old_comment{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.old_comment_form{
+    padding:1rem;
+    border:0.1rem solid #ccc;
+    border-radius: 3rem;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+.name_user_old_comment{
+    margin:0;
+    font-size: 1.2rem;
+}
+.comment_user_old_comment{
+    margin:0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 430px;
+}
+.create_comment{
+    position: absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    height:4rem;
+    border-top: 0.1rem solid #333;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+.name_user{
+    width: 20%;
+    height: 80%;
+    border: 0.1rem solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+}
+.name_user h1{
+    font-size: 1rem;
+}
+.user_comment{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    padding:0 1rem;
+    justify-content: center;
+}
+.user_comment textarea{
+    width:100%;
+    border-radius: 2rem;
+    outline: none;
+    padding: 0.8rem 0 0rem 1rem; 
+    font-size: 1.1rem;
+    resize: vertical;
+}
+.put_button{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.put_button button{
+    height: 60%;
+    width: 80%;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.put_button button:active{
+    transform: scale(1.05);
+}

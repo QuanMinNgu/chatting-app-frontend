@@ -1,0 +1,53 @@
+.home_form{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home_input{
+    width: 40rem;
+    padding:2rem;
+    box-shadow: 0 0 1rem 0.5rem #333;
+}
+.home_input form{
+    width: 100%;
+}
+.name_input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:2rem 0;
+}
+.name_input label{
+    width: 30%;
+    font-size: 1.5rem;
+}
+.name_input input{
+    width: 60%;
+    height: 3rem;
+    border-radius: 2rem;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+.button_in{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.button_in button{
+    width: 40%;
+    height: 50px;
+    border-radius: 3rem;
+    background-color: green;
+    color:White;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all ease 0.1s;
+}
+.button_in button:active{
+    transform: scale(1.1);
+}
